@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const pkgjson = require("./package.json");
-const welcom = require("cli-welcome");
+const welcome = require("cli-welcome");
 welcome({
   title: pkgjson.name,
   tagLine: `Howdy, nice to meet you yey!`,
