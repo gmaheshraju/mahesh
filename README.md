@@ -3,7 +3,7 @@
 # download the npm package and run
 
 ```sh
-npm i mahesh.guntumadugu <br/>
+npm i mahesh.guntumadugu
 ```
 
 Get to know about mahesh guntumadugu via npm. Just run `npm mahesh`
