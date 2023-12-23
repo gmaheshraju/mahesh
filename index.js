@@ -1,4 +1,8 @@
 #!/usr/bin/env node
+const clearConsole = require("clear-any-console");
+
+// Clears the console.
+clearConsole();
 console.log(`Mahesh Guntumadugu 
 
 Senior Engineer.Coding enthusiast with strong development skills,
