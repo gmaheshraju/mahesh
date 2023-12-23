@@ -12,5 +12,13 @@
     "mahesh guntumadugu",
     "mahesh",
     "senior engineer"
-  ]
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repo": "/gmaheshraju/mahesh",
+  "author": {
+    "name": "Mahesh Guntumadugu",
+    "email": "maheshraju1218@gmail.com",
+    "url": "https://medium.com/@maheshguntumadugu"
+  }
 }
