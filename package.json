@@ -6,6 +6,7 @@
     "mahesh": "index.js"
   },
   "dependencies": {
+    "chalk": "^4.1.0",
     "cli-welcome": "^2.2.2"
   },
   "keywords": [
@@ -15,7 +16,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "repo": "https://github.com/gmaheshraju/mahesh",
+  "repository": "/gmaheshraju/mahesh",
   "author": {
     "name": "Mahesh Guntumadugu",
     "email": "maheshraju1218@gmail.com",

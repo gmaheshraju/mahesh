@@ -1,5 +1,7 @@
 #!/usr/bin/env node
+const chalk = require("chalk");
 const pkgjson = require("./package.json");
+
 const welcome = require("cli-welcome");
 welcome({
   title: pkgjson.name,
@@ -10,15 +12,17 @@ welcome({
   bold: true,
   clear: true,
 });
-console.log(`Mahesh Guntumadugu 
+console.log(`${chalk.bgBlue.bold(`Mahesh Guntumadugu`)}
 
-Senior Engineer.Coding enthusiast with strong development skills,
-eager to learn new technologies, and experienced as a freelancer
+${chalk.dim(
+  `Senior Engineer.Coding enthusiast with strong development skills,
+eager to learn new technologies, and experienced as a freelancer.`
+)}
 
-
-
-Medium: https://medium.com/@maheshguntumadugu
-Github: https://github.com/gmaheshraju
-LinkedIn: https://www.linkedin.com/in/gmaheshraju/
+${chalk.hex(`#00ab6c`).bold(`Medium`)}: https://medium.com/@maheshguntumadugu;
+${chalk.hex(`#333`).bold(`Github`)}: https://github.com/gmaheshraju;
+${chalk
+  .hex(`#0a66c2`)
+  .bold(`LinkedIn`)}: https://www.linkedin.com/in/gmaheshraju/
 
 `);
