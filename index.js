@@ -13,7 +13,7 @@ welcome({
   clear: true,
 });
 console.log(`
-${chalk.dim(
+${chalk.italic(
   `Senior Engineer.Coding enthusiast with strong development skills,
 eager to learn new technologies, and experienced as a freelancer.`
 )}
