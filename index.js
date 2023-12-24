@@ -4,7 +4,7 @@ const pkgjson = require("./package.json");
 
 const welcome = require("cli-welcome");
 welcome({
-  title: pkgjson.name,
+  title: `${chalk.bgBlue.bold(`Mahesh Guntumadugu`)}`,
   tagLine: `Howdy, nice to meet you yey!`,
   description: pkgjson.description,
   version: pkgjson.version,
@@ -12,17 +12,14 @@ welcome({
   bold: true,
   clear: true,
 });
-console.log(`${chalk.bgBlue.bold(`Mahesh Guntumadugu`)}
-
+console.log(`
 ${chalk.dim(
   `Senior Engineer.Coding enthusiast with strong development skills,
 eager to learn new technologies, and experienced as a freelancer.`
 )}
 
-${chalk.hex(`#00ab6c`).bold(`Medium`)}: https://medium.com/@maheshguntumadugu;
-${chalk.hex(`#333`).bold(`Github`)}: https://github.com/gmaheshraju;
-${chalk
-  .hex(`#0a66c2`)
-  .bold(`LinkedIn`)}: https://www.linkedin.com/in/gmaheshraju/
+${chalk.bgGreen.bold(` Medium `)} https://medium.com/@maheshguntumadugu;
+${chalk.bgGrey.bold(` Github `)} https://github.com/gmaheshraju;
+${chalk.bgBlue.bold(` LinkedIn `)} https://www.linkedin.com/in/gmaheshraju/
 
 `);
