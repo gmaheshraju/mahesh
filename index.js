@@ -40,6 +40,7 @@ ${logSymbols.error} ${error(` WARNING `)} Be yourself. Don't copy without credit
 
 ${logSymbols.info} ${info(
   ` INFO `
-)} reach out to me via email maheshraju1218@gmail.com
+)} To develop insane cli's together, contact me at maheshraju1218@gmail.com or through the above social media accounts.
+   
 
 `);
